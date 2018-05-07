@@ -4,103 +4,88 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Meacham Pharmacy of Elmont</title>
 	<link rel="stylesheet" type="text/css" href="design.css" />	
-	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/rxicon.gif"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	
 </head>
 <body>
+	<!--Nav Bar-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<img src="img/logo.png" id="logo">
+		<a class="navbar-brand" id="store-name" href="#">Meacham Pharmacy</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
-	<header>
-		<div id="header-inner">
-			<a href="MeachamPharmacy.html" id="logo"></a>
-			<nav>
-					<!--unordered List for the Header of the page-->
-			<a href="#" id="menu-icon"></a>
-				<ul>
-					<!--current link that will take to home-->
-					<li><a href="#" class="current">Home</a></li>
-					<li><a href="#ntce">Notice</a></li>
-					<li><a href="#serv">Services</a></li>
-					<li><a href="#cont">Contact</a></li>
-					<li><a href="#loc">Location</a></li>
-				</ul><!--end of UN List-->
-			</nav>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link purple-text" href="#"> Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link purple-text" href="#">Pharmacy</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle purple-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Surgical Supplies
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item purple-text" href="#">Aids to Daily Living</a>
+						<a class="dropdown-item purple-text" href="#">Ostomy Supplies</a>
+						<a class="dropdown-item purple-text" href="#">Surgical Appliances</a>
+						<a class="dropdown-item purple-text" href="#">Surgical Stockings</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link purple-text" href="#">Contact</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link purple-text" href="#">General Merchandise</a>
+				</li>
+			</ul>
+			<!-- <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form> -->
 		</div>
-	</header>
-	<!--End of Header-->
-	<section class="cell">
-		<h4> HABLAMOS ESPANOL! * Visitanos - 107 Meacham Ave., Elmont, NY 11003 * Llamanos Ahora! (516) 111-1111</h4>
+	</nav>
+	<!--End of Nav Bar-->
+	<section id="section1">
+		<div class="container h-100">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="text-center"> <h3 id="call-text" >Call Us Now! <a href="Tel:516-354-2950">516-354-2950</a> Se Habla Español</h3></div>
+			</div>
+		</div>
 	</section>
-	<section class = "banner">
-		<!--class "banner-inner" will keep the banner in center and applicable for mobile-->
-		<img src="img/mid_design.png">
-	<!--End of Midsection with picture and text-->
-	
-	<!--Start of Html tabs-->
-	<section class="tabsec">
-	<button class="bar-item button tablink red" onclick="tabLine(event,'Notice')" id="ntce">Notice <i class="fa fa-exclamation-triangle"></i></button>
-    <button class="bar-item button tablink" onclick="tabLine(event,'Services')" id="serv">Services <i class="fa fa-cart-plus"></i></button>
-    <button class="bar-item button tablink" onclick="tabLine(event,'Contact')" id="cont">Contact <i class="fa fa-phone-square"></i></button>
-    <button class="bar-item button tablink" onclick="tabLine(event,'Location')" id="loc">Location <i class="fa fa-map-marker"></i></button>
-	
+	<section>
+		<div class="pharmacy-img">
+			<img src="img/pharmacyPicture.png" style="width:100%;">
+			<div class="img-text">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div id="content">
+								<h1>Pharmacy and Surgical Supplies</h1>
+								<hr>
+								<button class="btn btn-info btn-lg">Contact Us</button>
+							</div>
 
-  
-	<div id="Notice" class="container border title">
-		<h2>Notice</h2>
-		<p>1..............................</p>
-		<p> another one </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+</section>
+<section>
+	<div class="container">
+		<h1>hellow</h1>
+	</div>
+</section>
 
-	<div id="Services" class="container border title" style="display:none">
-		<h2>Services</h2>
-		<p>2................................</p> 
-	</div>
-
-	<div id="Contact" class="container border title" style="display:none">
-		<h2>Contact</h2>
-		<p>3..................................</p>
-	</div>
-	
-	<div id="Location" class="container border title" style="display:none">
-		<h2>Location</h2>
-		<p>4.....................................</p>
-	</div>
-	</div>
-
-	<script>
-	function tabLine(evt, Headline) {
-	  var i, x, tablinks;
-	  x = document.getElementsByClassName("title");
-	  for (i = 0; i < x.length; i++) {
-	      x[i].style.display = "none";
-	  }
-	  tablinks = document.getElementsByClassName("tablink");
-	  for (i = 0; i < x.length; i++) {
-	      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-	  }
-	  document.getElementById(Headline).style.display = "block";
-	  evt.currentTarget.className += " w3-red";
-	}
-	</script>
-	</section>
-	<!--End of html tabs-->
-
-	<div id="logo2">
-		
-		<h4>Follow us on facebook!</h4>
-		
-	</div>
-	<!--End of logo section-->
-
-	<footer id="reference">
-		<ul class="social"><!--social media links and icons-->
-			<li><a href="https://www.facebook.com/MeachamPharmacy/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-		</ul>
-	</footer>
-	<!--End of footer section-->
-	<footer class="second">
-		<p>&copy; CB 
-	</footer>
-	<!--End of second footer section-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
