@@ -59,6 +59,10 @@ div h5:hover a{
     position: fixed;
     left: 89%;
     top: 22%;
+    border: 2px solid #f7f7f7;
+    padding: 2px 2px 0px 2px;
+    background-color: #f7f7f7;
+
 }
 
 .text-shrink{
@@ -67,7 +71,7 @@ div h5:hover a{
 }
 
 #border{
-  margin-top: 10px;
+  margin-top: 20px;
   border: 2px solid #ea4861;
   border-radius: 8px;
 }
