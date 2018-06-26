@@ -1,8 +1,8 @@
-div h3 a{
+div h5 a{
   color: #e1d5e5;
 }
 
-div h3:hover a{
+div h5:hover a{
   color: #fafafa;
 }
 
@@ -24,9 +24,11 @@ div h3:hover a{
 
 #section1{
  background-color: #0683b0;
+ height: 3rem;
 }
 #call-text{
   color: #e1d5e5;
+  margin: auto;
 }
 
 .pharmacy-img{
@@ -45,9 +47,35 @@ div h3:hover a{
 #content{
   color: #fafafa;
   text-align: center;
-  padding-top: auto;
+  position: relative;
+  top: -50%;
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
   0px 8px 13px rgba(0,0,0,0.1),
   0px 18px 23px rgba(0,0,0,0.1);
 
 } 
+
+.fixed{
+    position: fixed;
+    left: 89%;
+    top: 22%;
+}
+
+.text-shrink{
+  color: #66566c;
+  font-size: .75em;
+}
+
+#border{
+  margin-top: 10px;
+  border: 2px solid #ea4861;
+  border-radius: 8px;
+}
+
+#phone-color{
+  color: #ea4861;
+}
+
+#solo{
+ color: #66566c;
+}
