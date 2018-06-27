@@ -7,7 +7,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="img/rxicon.gif"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 </head>
 <body>
 	<!--Nav Bar-->
@@ -60,7 +61,7 @@
 	</section>
 	<section>
 		<div class="pharmacy-img">
-				<img src="img/pharmacyPicture.png" style="width:100%; border-radius: 1rem;">
+				<img src="img/pharmacyPicture.png" style="width:100%;">
 			<div class="img-text">
 				<div class="container">
 					<div class="row">
@@ -69,7 +70,7 @@
 								<h1>Pharmacy and Surgical Supplies</h1>
 								<hr>
 								<button class="btn btn-info btn-lg">Contact Us</button>
-								<div class="fixed">
+								<!-- <div class="fixed">
 									<ul class="list-unstyled"><h6 id="solo">Hours of operation</h6>
 										<li class="text-shrink">Sunday - 9am to 2pm</li>
 										<li class="text-shrink">Monday - 9am to 8pm</li>
@@ -83,7 +84,7 @@
 										<li><a href="Tel:516-354-2950">516-354-2950</a></li>
 										</div>
 									</ul>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -92,26 +93,72 @@
 		</div>
 	</div>
 </section>
-<section>
-	<div class="container">
-		<h1>...</h1>
-		<p>You can use the fixed CSS position property to accomplish this. There is a basic tutorial on this here.
-
-EDIT: However, this approach is NOT supported in IE versions < IE7, and only in IE7 if it is in standards mode. This is discussed in a little more detail here.
-
-There is also a hack, explained here, that shows how to accomplish fixed positioning in IE6 without affecting absolute positioning. What version of IE are you targeting your website for?</p>
+<div id="section2">
+	<div class="flex-container">
+		<div class="reduce-text" >
+			For more than 42 years, the team at Meacham Pharmacy and Surgical has been serving the Elmont, NY community. We provide the high-quality, friendly service you deserve. <strong>FREE</strong> pick up and delivery services available. Blue Cross Blue Shield Medicare Part D prescriptions filled at our pharmacy.
+		</div>
+		<div>
+			<img src="img/primer.jpg" id="img2">
+		</div>
 	</div>
-	<p>You can use the fixed CSS position property to accomplish this. There is a basic tutorial on this here.
+</div>
+<div id="section3">
+	<div class="flex-container">
+		<div id="img3">
+			<img src="img/segunda.jpg" style="width: 500px;">
+		</div>
+		<div class="reduce-text" style="color: #e1d5e5">
+			Find the medical stockings you need to recover properly after your surgery with the help of the staff at Meacham Pharmacy and Surgical. We will get you custom-fitted for your stockings and get you on the road to recovery.
+		</div>
+	</div>
+</div>	
+<div>
+	<div class="flex-container">
+		<div style="font-size: 20px;">
+			Follow Us! 
+			<a href="https://www.facebook.com/MeachamPharmacy/"><i class="fab fa-2x fa-facebook-f" id="f-move"></i></a>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div flex-container>
+		<div>
+			<div>
+				Located in Elmont, NY
+			</div>
+			<div id="map">
+				
+			</div>
+		</div>
+		<div>
+			
+		</div>		
+	</div>
+</div>
 
-EDIT: However, this approach is NOT supported in IE versions < IE7, and only in IE7 if it is in standards mode. This is discussed in a little more detail here.
+<script>
+	// Initialize and add the map
+	function initMap() {
+	  // The location of Uluru
+	  var uluru = {lat: 40.705371, lng: -73.690163};
+	  // The map, centered at Uluru
+	  var map = new google.maps.Map(
+	  	document.getElementById('map'), {zoom: 4, center: uluru});
+	  // The marker, positioned at Uluru
+	  var marker = new google.maps.Marker({position: uluru, map: map});
 
-There is also a hack, explained here, that shows how to accomplish fixed positioning in IE6 without affecting absolute positioning. What version of IE are you targeting your website for?</p>
-<p>You can use the fixed CSS position property to accomplish this. There is a basic tutorial on this here.
+	  //automatic zoom
+	  bounds = new google.maps.LatLngBounds();
+	  var loc = new google.maps.LatLng(marker.position.lat(40.7054081), marker.position.lng(-73.6909824));
+	  bounds.extend(loc);
+	  map.fitBounds(bounds); //auto-zoom
+	  map.panToBounds(bounds); //auto-center
+	}
+</script>
 
-EDIT: However, this approach is NOT supported in IE versions < IE7, and only in IE7 if it is in standards mode. This is discussed in a little more detail here.
-
-There is also a hack, explained here, that shows how to accomplish fixed positioning in IE6 without affecting absolute positioning. What version of IE are you targeting your website for?</p>
-</section>
+<!-- google API -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRiNIJiPIEyVy21RLNrAK4GbW0of-1kms&callback=initMap"> </script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
