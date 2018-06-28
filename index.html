@@ -45,10 +45,6 @@
 					<a class="nav-link purple-text" href="#">General Merchandise</a>
 				</li>
 			</ul>
-			<!-- <form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-			</form> -->
 		</div>
 	</nav>
 	<!--End of Nav Bar-->
@@ -61,7 +57,7 @@
 	</section>
 	<section>
 		<div class="pharmacy-img">
-				<img src="img/pharmacyPicture.png" style="width:100%;">
+			<img src="img/pharmacyPicture.png" style="width:100%;">
 			<div class="img-text">
 				<div class="container">
 					<div class="row">
@@ -70,21 +66,6 @@
 								<h1>Pharmacy and Surgical Supplies</h1>
 								<hr>
 								<button class="btn btn-info btn-lg">Contact Us</button>
-								<!-- <div class="fixed">
-									<ul class="list-unstyled"><h6 id="solo">Hours of operation</h6>
-										<li class="text-shrink">Sunday - 9am to 2pm</li>
-										<li class="text-shrink">Monday - 9am to 8pm</li>
-										<li class="text-shrink">Tuesday - 9am to 8pm</li>
-										<li class="text-shrink">Wednesday - 9am to 8pm</li>
-										<li class="text-shrink">Thursday - 9am to 8pm</li>
-										<li class="text-shrink">Friday - 9am to 8pm</li>
-										<li class="text-shrink">Saturday - 9am to 5pm</li>
-										<div id="border">
-										<li style="color: #ea4861;">Call Now</li>
-										<li><a href="Tel:516-354-2950">516-354-2950</a></li>
-										</div>
-									</ul>
-								</div> -->
 							</div>
 						</div>
 					</div>
@@ -124,36 +105,22 @@
 <div style="background-color: #66566c;">
 	<div class="footer">
 		<div style="width: 30%; padding-bottom: 10px;">
-			<div style="padding-bottom: 10px; font-size: 1.5rem; color: #e1d5e5";>
+			<div style="padding-bottom: 10px; padding-top: 5px; font-size: 1.5rem; color: #e1d5e5";>
 				Located in Elmont, NY
 			</div>
 			<div id="map"></div>
 		</div>
-		<div style="font-size: 1.15rem; color: #e1d5e5;">
-			<font>
-				Meacham Pharmacy and Surgical
-			</font>
+		<div style="font-size: 1.15rem; color: #e1d5e5; padding-top: 4%;">
+			<font>Meacham Pharmacy and Surgical</font>
 			<br>
-			<font>
-				107 Meacham Ave
-			</font>
-						<br>
-
-			<font>
-				Elmont, NY 11003
-			</font>
-						<br>
-
-			<font>
-				<strong>Phone:</strong> 516-354-2950
-			</font>
-						<br>
-
-			<font>
-				<strong>Fax:</strong>516-354-3375
-			</font>
-						<br>
-
+			<font>107 Meacham Ave</font>
+			<br>
+			<font>Elmont, NY 11003</font>
+			<br>
+			<font><strong>Phone:</strong> 516-354-2950</font>
+			<br>
+			<font><strong>Fax:</strong>516-354-3375</font>
+			<br>
 			<div>
 				<img src="https://cdn.websites.hibu.com/18f74958deaf4473858b447874cb4dae/dms3rep/multi/cc-logos.png" id="cc-logos">
 			</div>
@@ -161,30 +128,9 @@
 	</div>
 </div>
 
-<script>
-	// Initialize and add the map
-	function initMap() {
-	  // The location of Uluru
-	  var pharmacy = {lat: 40.705371, lng: -73.690163};
-	  // The map, centered at Uluru
-	  var map = new google.maps.Map(
-	  	document.getElementById('map'), {zoom: 17, center: pharmacy});
-	  // The marker, positioned at Uluru
-	  var marker = new google.maps.Marker({position: pharmacy, map: map});
-
-	  //automatic zoom
-	  // bounds = new google.maps.LatLngBounds();
-	  // var loc = new google.maps.LatLng(marker.position.lat(40.7054081), marker.position.lng(-73.6909824));
-	  // bounds.extend(loc);
-	  // map.fitBounds(bounds); //auto-zoom
-	  // map.setZoom(17);
-	  // map.panTo(bounds);
-	}
-</script>
-
+<script type="text/javascript" src="dynamic.js"></script>
 <!-- google API -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRiNIJiPIEyVy21RLNrAK4GbW0of-1kms&callback=initMap"> </script>
-
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
