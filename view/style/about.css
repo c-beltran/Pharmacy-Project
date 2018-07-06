@@ -76,7 +76,7 @@ div h5:hover a{
 
 #section2{
   background-color: #f7f7f7;
-  height: 20rem;
+
  }
 
  .flex-container{
@@ -86,11 +86,12 @@ div h5:hover a{
 
  .reduce-text{
   display: block;
-  padding: 80px 75px 75px 75px;
+  padding: 80px 75px 0px 75px;
  }
 
  #img2{
-    padding: 40px 75px 50px 0px;
+    padding: 0px 75px 40px 0px;
+    margin-top: 75px;
  }
 
  #f-move{
