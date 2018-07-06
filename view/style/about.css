@@ -86,8 +86,26 @@ div h5:hover a{
 
  .reduce-text{
   display: block;
-  padding: 80px 75px 0px 75px;
+  padding: 40px 75px 10px 75px;
  }
+
+ #text-width{
+  margin: auto;
+  max-width: 75%;
+  text-align: justify;
+ }
+
+ #banner{
+  background-color: #0683b0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #e1d5e5;
+  width: 320px;
+  height: 100px;
+}
 
  #img2{
     padding: 0px 75px 40px 0px;
