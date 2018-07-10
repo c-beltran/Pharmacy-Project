@@ -87,6 +87,9 @@ div h5:hover a{
  .reduce-text{
   display: block;
   padding: 80px 75px 75px 75px;
+  max-width: 50%;
+  text-align: justify;
+
  }
 
  #img2{
