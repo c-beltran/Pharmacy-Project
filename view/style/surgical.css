@@ -50,7 +50,7 @@ div h5:hover a{
  color: #66566c;
 }
 
-#section2{
+#e-sectoion{
   background-color: #f7f7f7;
   height: 20rem;
  }
@@ -76,10 +76,17 @@ div h5:hover a{
 
   #aids-img{
   margin-top: 30px;
+  margin-bottom: 20px;
   width: 500px;
   height: 250px;
+
  }
 
+#surgical-img{
+  margin-top: 30px;
+  width: 500px;
+  height: 250px;
+}
 
  .center-text h1{
   color: #ea4861;
@@ -90,8 +97,8 @@ div h5:hover a{
   text-align: justify;
  }
 
- #section3{
-  background-color: #0683b0;
+ #o-section{
+  background-color: #e1d5e5;
   height: 20rem;
  }
 
