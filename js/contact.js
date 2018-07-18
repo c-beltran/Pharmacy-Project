@@ -18,9 +18,3 @@
 	  // map.setZoom(17);
 	  // map.panTo(bounds);
 	}
-	//scroll effect
-	$("#logo").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#cc-logos").offset().top},
-        'slow');
-	});
