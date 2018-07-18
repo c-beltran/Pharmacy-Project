@@ -1,0 +1,148 @@
+div h5 a{
+  color: #e1d5e5;
+}
+
+div h5:hover a{
+  color: #fafafa;
+}
+
+#logo{
+  width: 5%;
+  height: 5%;
+}
+
+#store-name{
+  font-size: 2.50rem;
+  color: #66566c;
+  font-family: 'Concert One', cursive;
+  padding-left: 10px;
+}
+
+.purple-text{
+  color: #66566c;
+}
+
+#section1{
+ background-color: #0683b0;
+ height: 3rem;
+}
+#call-text{
+  color: #e1d5e5;
+  margin: auto;
+}
+
+.pharmacy-img{
+  position: relative;
+  width: 100%
+  opacity: 0.4;
+}
+
+.img-text{
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; s
+}
+
+#content{
+  color: #fafafa;
+  text-align: center;
+  position: relative;
+  top: -50%;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+  0px 8px 13px rgba(0,0,0,0.1),
+  0px 18px 23px rgba(0,0,0,0.1);
+
+} 
+
+.text-shrink{
+  color: #66566c;
+  font-size: .75em;
+}
+
+#border{
+  margin-top: 20px;
+  border: 2px solid #ea4861;
+  border-radius: 8px;
+}
+
+#phone-color{
+  color: #ea4861;
+}
+
+#solo{
+ color: #66566c;
+}
+
+#section2{
+  background-color: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.reduce-text{
+  display: block;
+  padding: 40px 75px 10px 75px;
+}
+
+#banner{
+  background-color: #0683b0;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #e1d5e5;
+  width: 320px;
+  height: 100px;
+}
+
+#img2{
+  padding: 0px 75px 40px 0px;
+  margin-top: 75px;
+}
+
+#f-move{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#map {
+  height: 500px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+}
+
+#cc-logos{
+  width: 290px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+#map-size}{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+#direction-btn{
+  padding-top: 5%;
+
+}
+
+.btn-danger{
+  color: #ffffff;
+  background-color: #ea4861;
+  border-color: #ea4861;
+}
+
+.btn-danger a{
+  color: #ffffff;
+}
